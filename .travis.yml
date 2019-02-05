@@ -1,0 +1,11 @@
+langage: c++
+
+sudo: false
+
+before_install:
+  - sudo  apt-get install -y libncurses5-dev libncursesw5-dev
+
+script:
+  - make clean
+  - make
+
